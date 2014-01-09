@@ -1,22 +1,51 @@
 header {
-	margin: 0 auto;
+	margin: 20px auto;
 	width: 70%;
+	font: 13px;
+}
+section {
+	margin: 0 auto;
+}
+.bold {
+	font-weight: bold;
+}
+#p1 {
 
+	font-size: 150%;
+	font-family: sans-serif;
+}
+#p2 {
+	font-size: 150%;
+	font-family: sans-serif;
+}
+#p3 {
+	float: right;
+	font: 150% sans-serif;
+	font-weight: bold;
 }
 
 .block {
-	margin: 0 auto;
+	margin: 0 auto 0;
 	display: inline-block;
-	float: left;
-	padding: 0 100px 100px 100px;
+	float: center;
 }
-
+a {
+	color: #0645ad;
+	text-decoration: none;
+}
 
 .grid {
 	margin: 0 auto;
 }
 
 .tiles {
-	margin: 10px 150px 30px 70px;
-	width: 25%;
+	margin: 10px 70px 20px 70px;
+	border: 1px solid none;
+	vertical-align: middle;
+	width: 180px;
+}
+body {
+	margin: 0 auto;
+	font: 13px/1.5;
+}
 }
